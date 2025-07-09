@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(1,1,67);
+    color:rgb(234, 238, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(14,14,76);
+   
+    
+}
+
+nav #left {
+    font-family: brush script mt, cursive;
+    color: rgb(27, 155, 246);
+    font-size: 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(27, 155, 246);
+}
+
+nav ul li a:hover {
+    color: rgb(80, 80, 150);
+    font-size: 1.02rem;
+}
+
+#left {
+    font-size: 1.8rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 90px; */
+    align-items: center;
+}
+
+
+
+.leftsection {
+    font-size: 3rem;
+    margin: 90px 0;
+    
+}
+
+.rightsection img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    flex-basis: 50%;
+}
+.rightsection{
+    flex-basis: 20%;
+    align-items: center;
+    margin-left: 282px;
+
+}
+
+.purple {
+    color: rgb(58, 200, 232);
+    font-family: brush script mt, cursive;
+}
+
+.grey {
+    color: gray;
+    font-size: 15px;
+
+}
+.download-btn{
+    margin-top: 80px;
+}
+
+.download{
+    margin-top: 80px;
+    text-decoration: none;
+    border: 1px solid rgb(99, 47, 212);
+    font-size: 22px;
+    padding: 10px 10px;
+    color: white;
+    background-color:rgb(80, 80, 150);
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+.download:hover{
+    background-color: #2c5364;
+}
+
+main hr {
+    height: 1px;
+    background-color: rgb(100, 202, 243);
+    margin: 40px 90px;
+}
+
+.secondsection {
+    max-width: 150vh;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* about section */
+
+.about{
+    margin: 161px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-1{
+flex-basis: 35%;
+}
+.col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.col-2{
+    flex-basis: 60%;
+}
+h1{
+    font-size: 3rem;
+    color: rgb(193, 160, 235);
+}
+.about hr{
+    margin: 9px 0;
+    padding: 0;
+    width: 222px;
+    background-color: brown;
+    border: none;
+    height: 2px;
+}
+.p{
+    color: blanchedalmond;
+    font-size: 18px;
+}
+.tab{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(241, 114, 135);
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active::after{
+    width: 100%;
+}
+.tab-content ul{
+    margin-left: 17px;
+}
+.tab-content ul li{
+   padding-top: 8px;
+   font-size: 18px;
+   color:blanchedalmond ;
+}
+.tab-content ul li span{
+   color: red;
+   font-size: 22px;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active-tab{
+    display: block;
+}
+
+/* ..................services............... */
+.container{
+    padding: 58px 152px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color:  rgb(52, 52, 90);
+    border-radius: 12px;
+    padding: 20px;
+    transition: background-color 0.9s, transform 1s;
+}
+.services-list div i{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.services-list div h2{
+    font-size: 2rem;
+    color:  rgb(187, 138, 250);
+    margin-bottom: 12px;
+}
+.services-list div p{
+    font-size: 1rem;
+}
+.services-list div a{
+    text-decoration: none;
+    color: azure;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background-color: #2c5364;
+    color: bisque;
+    transform: translateY(-10px);
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    height:100%;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.5s;
+}
+.work .layer h3{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(187, 138, 250);
+}
+
+.work .layer p{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    color: blanchedalmond;
+}
+.work .layer a{
+    margin-top: 20px;
+    color: #203a43;
+    text-decoration: none;
+    line-height: 60px;
+    background-color: rgb(87, 129, 147);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background-image:linear-gradient(rgb(15, 32, 39,0.4), #203a43, #2c5364);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0,40px;
+    text-align: center;
+    transition: height  0.9s;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid rgb(90, 71, 234);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(193, 215, 235);
+    transition: background-color 0.5s;
+}
+.btn:hover{
+    background-color: #2c5364;
+}
+
+/* ..........................contact me.....................*/
+
+.contact-me{
+    margin-top: 50px;
+}
+.contact-me .email{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}   
+.social-icons{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 50px;
+}
+.social-icons i{
+    color: rgb(129, 210, 237);
+    transition: transform 0.5s;
+}
+.social-icons i:hover{
+    color: yellowgreen;
+    transform:translateY(-5px) ;
+}
+.left{
+    flex-basis: 35%;
+}
+.right{
+    flex-basis: 60%;
+}
+.right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: rgb(32 32 87);
+    padding: 12px;
+    margin: 12px 0;
+    color: white;
+    font-size:18px;
+    border-radius: 6px;
+}
+.btn.btn2{
+    background-color:rgb(68, 68, 172) ;
+    padding: 12px 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ..................csss for small screen */
+
+@media only screen and (max-width:1000px){
+    .rightsection{
+        display: inline;
+        margin-left: 117px;
+    }
+    .firstsection{
+        width: 100vh;
+        margin: 189px 0;
+        margin-left: -146px;
+        margin-bottom: 189px;
+        margin-left: -146px;
+    }
+   
+
+
+}
