@@ -12,7 +12,7 @@
 
 *MENTOR :-NEELA SANTOSH*
 
-*DESCRIPTION*
+  *DESCRIPTION*
 
 *The Interactive Quiz Application is a lightweight and dynamic web-based platform built using HTML, CSS, and JavaScript. Designed with simplicity and engagement in mind, this app provides an intuitive way for users to take timed quizzes with multiple-choice questions.
 
@@ -20,7 +20,8 @@ Whether you’re preparing for a test, practicing general knowledge, or just kil
 
 <img width="1752" height="936" alt="Image" src="https://github.com/user-attachments/assets/923b34bf-4363-456e-8e15-21a2f177e887" />
 
- Smart Layout for Smarter Learning
+
+* Smart Layout for Smarter Learning*
 The core of the app lies in its clean and distraction-free quiz box. Users are greeted with a question, four possible answers, and a visible countdown timer set to 30 seconds. The layout ensures that the content remains the focus.
 
 Key UI Sections:
