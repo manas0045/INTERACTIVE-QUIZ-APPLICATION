@@ -22,6 +22,7 @@ Whether you’re preparing for a test, practicing general knowledge, or just kil
 
 
 Smart Layout for Smarter Learning
+
 The core of the app lies in its clean and distraction-free quiz box. Users are greeted with a question, four possible answers, and a visible countdown timer set to 30 seconds. The layout ensures that the content remains the focus.
 
 Key UI Sections:
