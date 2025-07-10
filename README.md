@@ -213,12 +213,6 @@ Create category-based quizzes (e.g., History, Coding, Math)
 🚀 Conclusion
 This Interactive Quiz App is a fantastic starting point for both learners and developers. It demonstrates clear logic, dynamic DOM manipulation, and user feedback—all while maintaining a sleek UI/UX.
 
-If you'd like, I can:
-
-Create image mockups of each screen
-
-Generate a project poster or presentation
-
-Help you deploy this online (e.g., GitHub Pages)
+<img width="1697" height="922" alt="Image" src="https://github.com/user-attachments/assets/73653297-b56c-47e1-b8af-42a3319f830b" />
 
 
